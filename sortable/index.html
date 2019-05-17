@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Sortable</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="HandheldFriendly" content="true">
+      <link rel="icon" type="image/gif" href="../sortable/assets/images/dblue.png">
+    <script src="libs\jquery-ui-1.12.1.custom\external\jquery\jquery.js"></script>
+    <script src="libs\jquery-ui-1.12.1.custom\jquery-ui.js"></script>
+	<link rel="stylesheet" href="assets\css\bootstrap-4.1.3-dist\bootstrap.min.css">
+      <link rel="stylesheet" href="assets\css\bootstrap-4.1.3-dist\bootstrap-grid.css">
+      <link rel="stylesheet" href="assets\css\bootstrap-4.1.3-dist\bootstrap-reboot.css">
+    <link href="assets\css\jquery-ui-1.12.1.custom\jquery-ui.css" rel="stylesheet" />
+	<link rel="stylesheet" href="assets\css\style.css">
+</head>
+<body class="container-fluid p-0" style="font-family: Arial">
+<header class="fixed"><h1 class="text-center">Sortable States</h1></header>
+<main id="main">
+    <form  class="mx-auto container forms" id="form1" runat="server">
+        <div id="question"></div>
+			<div class="text-center"><p id="Notes"></p><input type="text" maxlength="2" pattern="[^0-9]" id="value"/><input id="conformValue" type="button" value="Ok" style="clear: both; float: center;" /></div>
+        <ul id="questionOptions">
+        </ul>
+        <ul id="answerOptions">
+        </ul>
+        <br />
+		<div class="row">
+        <input class="col-sm-4" id="btnCheck" type="button" value="Submit"
+               style="clear: both; float: left;" />  
+		<input class="col-sm-4" id="onceAgain" type="button" value="Try Again"
+               style="clear: both; float: left;" />
+	   <input class="col-sm-4" id="showAnswer" type="button" value="Show Answer"
+               style="clear: both; float: left;" />
+			   </div>
+    </form>
+</main>
+	<footer class="fixed"><p class="text-center">&copy; All rights are reserved by Deepak</p></footer>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

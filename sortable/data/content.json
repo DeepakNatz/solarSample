@@ -1,0 +1,6 @@
+ {
+	"QuestionText": "Reorder to match the capital city with their respective State",
+	"Note": "(Note: Give value 1 to 10 )",
+   "QuestionOptions": ["TamilNadu","Odisha","Kerala","Goa","Nagaland","Maharashtra","Tripura","Mizoram","Assam","Jharkhand"],
+   "ActualAnswer":["Chennai","Bhubaneswar","Thiruvananthapuram","Panaji","Kohima","Mumbai","Agartala","Aizawl","Dispur","Ranchi"]
+   }
